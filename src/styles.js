@@ -8,7 +8,7 @@ export default createGlobalStyle`
         min-width: 100%;
         align-items: center;
         justify-content: center;
-        background-image: url("/background.jpg");
+        background-image: url(${process.env.PUBLIC_URL + '/background.jpg'});
         background-size: cover;
         margin: 0;
     }

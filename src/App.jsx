@@ -3,12 +3,12 @@ import Login from "./components/Login";
 
 const App = () => {
     return (
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<Login />} />
-                    <Route path="*" element={<Navigate to="/" replace />} />
-                </Routes>
-            </BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <Routes>
+                <Route path="/" element={<Login />} />
+                <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
