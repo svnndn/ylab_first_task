@@ -9,7 +9,7 @@ export const LoginWrapper = styled.div`
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    min-width: 400px;
+    min-width: 500px;
     min-height: 350px;
 `;
 
