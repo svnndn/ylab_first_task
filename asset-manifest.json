@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/ylab_first_task/static/js/main.fe2385d4.js",
+    "main.js": "/ylab_first_task/static/js/main.8b4d507b.js",
     "index.html": "/ylab_first_task/index.html",
-    "main.fe2385d4.js.map": "/ylab_first_task/static/js/main.fe2385d4.js.map"
+    "main.8b4d507b.js.map": "/ylab_first_task/static/js/main.8b4d507b.js.map"
   },
   "entrypoints": [
-    "static/js/main.fe2385d4.js"
+    "static/js/main.8b4d507b.js"
   ]
 }
